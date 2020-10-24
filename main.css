@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width:375 ;
+    height: 100%;
+    font-family: 'Amatic SC', cursive;
+    
+}
+.container {
+    height: 599px;
+    width: 375px;
+    background: black;
+}
+.container img {
+    position: absolute;
+    width: 375px;
+    height: 599px;
+    left: 0px;
+    top: 0px;    
+    opacity: 65%;   
+
+}
+
+.box1 {
+    width: 375px;
+    height: 100%;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 65px solid black;
+    position: relative;
+}
+
+.box1 h1 {
+    padding-bottom: 30px;
+    color: white;
+}
+/* box2 */
+
+.box2 {
+    width: 375px;
+    height: 401px;
+    position: relative;
+    color: black;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border-bottom: 65px solid #F00001 ;
+}
+.box2 h1 {
+    z-index: 2;
+    font-size: 48px;
+}
+.box2 img {
+    width: 375px;
+    height: 401px;
+    position: absolute;
+    z-index: 1;
+    
+}
+/* box3 */
+.box3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    height: 296px;
+    font-size: 24px;
+}
+/* box4 */
+.box4 {
+    height: 355px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    border: 65px #BB865F solid;
+
+}
+.box4 img {
+    position: absolute;
+    z-index: 1;
+    height: 375px;
+    width: 375px;
+
+}
+.box4 h1 {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    padding:10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(0.7px);
+    font-size: 38px;
+
+}
+/* box5 */
+.box5 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    height: 81px;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    background-color: black;
+   
+
+}
+.box5 img {
+    height: 81px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    opacity: 70%;
+}
+.box5 h1 {
+    z-index: 2;
+    color: white;
+}
+/* box6 */
+.box6 {
+    display: flex;
+    background-color: black;
+}
+.des , .edu {
+    position: relative;
+}
+.des , .edu, .des img, .edu img {
+ width: 187px;
+ height: 218px;
+}
+.des img, .edu img {
+    position: absolute;
+    z-index: 1;
+    opacity: 70%;
+}
+.des h1 , .edu h1 {
+    z-index: 2;
+    position: absolute;
+    font-size: 48px;
+    color: white;
+    padding: 5px;
+}
+.des h1 {
+   top: 70%; 
+}
+/* box7 */
+.box7 {
+    background-color: black;
+    display: flex;
+    color: white;
+
+}
+.box7 img {
+    width: 150px;
+    height: 190px;
+    opacity: 70%;
+
+}
+.box7 h1 {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    font-size: 38px;
+}
+/* box8 */
+.box8 {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+.box8 h1 span {
+    color:#F00001 ;
+    font-size: 62px;
+}
+/* box9 */
+.box9 {
+    height: 456px;
+
+}
+.box9 img {
+    height: 100%;
+    width: 375px ;
+    border-top: 4px black solid;
+    border-bottom: 4px black solid;
+ 
+}
+.text9 {
+    padding: 25px;
+    text-align: center;
+    font-size: 32px;
+}
+.text9 h1 {
+    color: #F00001;
+    font-size: 50px;
+    padding: 10px 0px 10px 0px;
+}
+.text9 h5 {
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+}
